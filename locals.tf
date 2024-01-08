@@ -28,7 +28,7 @@ locals {
       topics             = ["fem", "terraform"]
       visibility         = "public"
     }
-    "fem-eci-terraform-aws-cluster" = {
+    "fem-eci-service" = {
       description        = "Example service"
       gitignore_template = "Go"
       name               = "fem-eci-service"
