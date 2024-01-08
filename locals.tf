@@ -28,6 +28,13 @@ locals {
       topics             = ["fem", "terraform"]
       visibility         = "public"
     }
+    "fem-eci-terraform-product-service" = {
+      description        = "Automation for service"
+      gitignore_template = "Terraform"
+      name               = "fem-eci-terraform-product-service"
+      topics             = ["fem", "terraform"]
+      visibility         = "public"
+    }
     "fem-eci-service" = {
       description        = "Example service"
       gitignore_template = "Go"
